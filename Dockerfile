@@ -1,3 +1,3 @@
-FROM elasticsearch:6.5.4
+FROM healthcheck/elasticsearch
 RUN bin/elasticsearch-plugin install analysis-kuromoji
 RUN bin/elasticsearch-plugin install analysis-icu
